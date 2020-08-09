@@ -1,18 +1,20 @@
 
 # Table of Contents
 
-1.  [Metadata Syntax](#org6b1c6f3)
-    1.  [Comments: must start on the first column unless these are part of shell/python functions](#orgf949a0c)
+1.  [Metadata Syntax](#org3dfd6f6)
+    1.  [Comments](#org7638bff)
 
 
-<a id="org6b1c6f3"></a>
+<a id="org3dfd6f6"></a>
 
 # Metadata Syntax
 
 
-<a id="orgf949a0c"></a>
+<a id="org7638bff"></a>
 
-## Comments: must start on the first column unless these are part of shell/python functions
+## Comments
+
+Must start on the first column unless these are part of shell/python functions
 
     # this is comment
         # this is an invalid comment
