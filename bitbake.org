@@ -4,7 +4,18 @@
 Must start on the first column unless these are part of shell/python functions
 
 #+BEGIN_EXAMPLE
-# this is comment
-    # this is an invalid comment
-HELLO = "WORLD" # this is another valid comment
+# this is a valid comment
+    # this is an invalid comment because it does not stat at first column
+HELLO = "WORLD" # this is another valid comment because it is after metadata
+
+
+foo() {
+    # this is a valid comment and can start at any column (as in shell)
+    echo "foo" # this is also valid (as in shell)
+}
+
+python bar() {
+    # this is a valid comment and can start at any column (as in python)
+    print("bar") # this is also valid (as in python)
+}
 #+END_EXAMPLE
