@@ -1,0 +1,7 @@
+* Metadata Syntax
+** Comments: must start on the first column unless these are part of shell/python functions
+#+BEGIN_EXAMPLE
+# this is comment
+    # this is an invalid comment
+HELLO = "WORLD" # this is another valid comment
+#+END_EXAMPLE
